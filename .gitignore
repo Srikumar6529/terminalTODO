@@ -1,0 +1,12 @@
+# Python bytecode caches
+__pycache__/
+*.pyc
+
+# Local package build distributions
+build/
+dist/
+*.egg-info/
+
+# Ignore local active data files so updates don't wipe out user logs
+src/todos.json
+

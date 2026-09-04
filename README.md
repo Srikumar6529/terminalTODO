@@ -22,7 +22,7 @@ git clone https://github.com/Srikumar6529/terminalTODO.git
 cd terminalTODO
 
 # 2. Install the application globally in editable mode
-pip3 install -e .
+pip3 install .
 ```
 
 *Note: The `-e` flag links the package in editable mode. Any direct syntax tweaks or code revisions you write inside your source files locally will apply across your universal global workspace updates instantly without needing to reinstall.*

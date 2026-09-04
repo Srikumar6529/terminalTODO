@@ -1,7 +1,7 @@
 import os
 import json
-base_dir = os.path.dirname(os.path.abspath(__file__))
-filepath = os.path.join(base_dir,"todos.json")
+HOME_DIR = os.path.expanduser("~")
+filepath = os.path.join(HOME_DIR, "todos.json")
 def get_todos():
     with open(filepath, "r", encoding = "utf-8") as file:
         todo_list = json.load(file)

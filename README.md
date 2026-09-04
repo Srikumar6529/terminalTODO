@@ -18,11 +18,11 @@ Clone the repository down to your computer and use `pip` to link it globally acr
 
 ```bash
 # 1. Clone this repository
-git clone https://github.com
+git clone https://github.com/Srikumar6529/terminalTODO.git
 cd terminalTODO
 
 # 2. Install the application globally in editable mode
-pip3 install -e . --break-system-packages
+pip3 install -e .
 ```
 
 *Note: The `-e` flag links the package in editable mode. Any direct syntax tweaks or code revisions you write inside your source files locally will apply across your universal global workspace updates instantly without needing to reinstall.*
